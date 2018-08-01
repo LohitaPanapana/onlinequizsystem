@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Quiz</title>
+	<link href="https://fonts.googleapis.com/css?family=Markazi+Text:400,600,700" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+	<div id="questions">
+		<h1 id="score"></h1>
+		<div class="outcome">
+			<h5>1. Inside which HTML element do we put the JavaScript?</h5>
+			<input type="radio" name="ques1"> javascript<br>
+			<input type="radio" name="ques1" class="ans"> script<br>
+			<input type="radio" name="ques1"> js<br>
+			<input type="radio" name="ques1"> scripting<br>
+		</div>
+		<div class="outcome">
+			<h5>2. What does CSS stand for?</h5>
+			<input type="radio" name="ques2" class="ans"> Cascading Style Sheets<br>
+			<input type="radio" name="ques2"> Colorful Style Sheets<br>
+			<input type="radio" name="ques2"> Creative Style Sheets<br>
+			<input type="radio" name="ques2"> Computer Style Sheets<br>
+		</div>
+		<div class="outcome">
+			<h5>3. How do you write "Hello World" in an alert box?</h5>
+			<input type="radio" name="ques3" class="ans"> alert("Hello World");<br>
+			<input type="radio" name="ques3"> alertBox("Hello World");<br>
+			<input type="radio" name="ques3"> msgBox("Hello World");<br>
+			<input type="radio" name="ques3"> msg("Hello World");<br>
+		</div>
+		<div class="outcome">
+			<h5>4.  What is the correct way to write a JavaScript array?</h5>
+			<input type="radio" name="ques4"> var colors = "red", "green", "blue"<br>
+			<input type="radio" name="ques4"> var colors = (1:"red", 2:"green", 3:"blue")<br>
+			<input type="radio" name="ques4" class="ans"> var colors = ["red", "green", "blue"]<br>
+			<input type="radio" name="ques4"> var colors = 1 = ("red"), 2 = ("green"), 3 = ("blue")<br>
+		</div>
+		<div class="outcome">
+			<h5>5. How do you call a function named "myFunction"?</h5>
+			<input type="radio" name="ques5"> call myFunction()<br>
+			<input type="radio" name="ques5" class="ans"> myFunction()<br>
+			<input type="radio" name="ques5"> myFunction<br>
+			<input type="radio" name="ques5"> call function myFunction()<br>
+		</div>
+		<button onClick="checkSolution()">Submit</button>
+	</div>
+	<script type="text/javascript" src="quiz.js"></script>
+</body>
+</html>

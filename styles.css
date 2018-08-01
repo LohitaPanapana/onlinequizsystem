@@ -1,0 +1,77 @@
+html{
+	margin: 0;
+}
+
+body{
+	font-family: 'Markazi Text', serif;
+	font-size: 20px;
+	transition-timing-function: ease-in-out;
+	background-image: url(https://images.unsplash.com/photo-1501139083538-0139583c060f?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=d34293717666869c9f8d26d353e1bb24&w=1000&q=80);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	margin: 0;
+}
+
+#questions{
+	margin: 50px 200px 50px 200px;
+	padding: 10px 60px;
+	background-color: rgba(0, 0, 0, 0.3);
+	color: rgba(255, 255, 255, 0.8);
+	box-shadow: 0 4px 8px 0 rgba(179, 179, 179, 0.2), 0 6px 20px 0 rgb(179, 179, 179, 0.19);
+}
+
+@media only screen and (max-width: 1200px) {
+    #questions{
+	margin: 0 100px 50px 100px;
+	padding: 10px 60px;
+	background-color: rgba(0, 0, 0, 0.3);
+	color: rgba(255, 255, 255, 0.8);
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	}
+}
+
+@media only screen and (max-width: 900px) {
+    #questions{
+	margin: 0 50px 50px 50px;
+	padding: 10px 60px;
+	background-color: rgba(0, 0, 0, 0.3);
+	color: rgba(255, 255, 255, 0.8);
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	}
+}
+
+.outcome{
+	padding: 5px 20px 10px 20px;
+	margin-top: 10px;
+
+}
+
+h5{
+	font-size: 1.1em;
+	letter-spacing: 1px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+button{
+	background-color: #1a8cff;
+	color: #ffffff;
+	border-radius: 3px;
+	border: transparent;
+	width: 150px;
+	font-size: 18px;
+	padding: 10px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	margin-top: 30px;
+	margin-bottom: 10px;
+}
+
+h1{
+	text-align: center;
+	width: 600px;
+	margin:0 auto;
+	font-weight: 600;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
